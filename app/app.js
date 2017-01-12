@@ -7,11 +7,11 @@ var app = angular.module('app', ['ui.router',
 ]);
 
 app.config(function ($stateProvider, $urlRouterProvider) {
-  $urlRouterProvider.otherwise('/character');
+  $urlRouterProvider.otherwise('/character/1');
 
   $stateProvider
     .state('character', {
-      url: '/character',
+      url: '/character/:characterId',
       templateUrl: 'pages/character.html',
       controller: 'CharacterController'
     });

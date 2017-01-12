@@ -51,8 +51,8 @@
                             <a  class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Personagens <span class="caret"></span></a>
                             <ul class="dropdown-menu" role="menu">
 
-                                <li ng-repeat="char in chars">
-                                    <a href="#">{{ char.name }}</a>
+                                <li ng-repeat="char in data.chars">
+                                    <a ui-sref="character({characterId: char.id})">{{ char.name }}</a>
                                 </li>
                             </ul>
                         </li>
