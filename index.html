@@ -18,12 +18,8 @@
     <script src="app/character.controller.js"></script>
 
     <link rel="stylesheet" type="text/css" href="https://bootswatch.com/cyborg/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="navbar-fixed-top.css">
 
-
-
-    <style type="text/css">
-    
-  </style>
 
 <title>Furflez database</title>
 
@@ -31,7 +27,7 @@
 
 <body>
     <div ng-controller="MainController">
-        <nav class="navbar navbar-inverse">
+        <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container-fluid">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
@@ -67,7 +63,7 @@
                 </div>
             </div>
         </nav>
-        <ui-view></ui-view>
+        <ui-view autoscroll="false"></ui-view>
     </div>
 
 </body>
