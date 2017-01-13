@@ -13,12 +13,24 @@
                 "rpg": "Mago: A ascenção",
                 "type": "Tradição: Ordem de Hermes (Ex Miscelânea)"
             },
-            "references": [],
+            "references": [{
+                "title":"Música: The Response - Cinema sleep",
+                "type":"1",
+                "source": "c6vwXSfYMa8"
+            }],
             "diary": {}
         },
         {
             "id": "2",
             "name": "Dr. Gus Hodgins"
+        },
+        {
+            "id": "3",
+            "name": "Amalya Kilgore"
+        },
+        {
+            "id": "4",
+            "name": "Masakasu Shoji"
         }
     ]
 }

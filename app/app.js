@@ -6,7 +6,7 @@ var app = angular.module('app', ['ui.router',
   'CharacterController'
 ]);
 
-app.config(function ($stateProvider, $urlRouterProvider) {
+app.config(function ($stateProvider, $urlRouterProvider, $sceDelegateProvider) {
   $urlRouterProvider.otherwise('/character/1');
 
   $stateProvider
@@ -14,5 +14,11 @@ app.config(function ($stateProvider, $urlRouterProvider) {
       url: '/character/:characterId',
       templateUrl: 'pages/character.html',
       controller: 'CharacterController'
+      
     });
+
+    $sceDelegateProvider.resourceUrlWhitelist([
+    'self',
+    'https://www.youtube.com/**'
+  ]);
 });
