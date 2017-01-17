@@ -28,27 +28,71 @@ var database = {
                 "title":"Música: The Response - Cinema sleep",
                 "type":"1",
                 "source": "c6vwXSfYMa8"
+            },
+            {
+                "title":"Música: All we ever see of the stars are their old photographs - We Are The Emergency",
+                "type":"1",
+                "source": "No42Zq9KlyE"
             }],
             "diary": {}
         },
         {
             "id": "2",
             "name": "Dr. Gus Hodgins",
-            "image": "https://i.imgsafe.org/e06e8961c1.png"
+            "image": "https://i.imgsafe.org/e06e8961c1.png",
+            "player": {
+                "name": "Furflez (Felipe Amaral)",
+                "date": "11/01/2017",
+                "rpg": "Reinos de Ferro",
+                "type": ""
+            },
+            "references": [{
+            }],
+            "diary": {}
         },
         {
             "id": "3",
             "name": "Amalya Kilgore",
-            "image": "https://i.imgsafe.org/e05e260360.jpg"
+            "image": "https://i.imgsafe.org/e05e260360.jpg",
+            "player": {
+                "name": "Furflez (Felipe Amaral)",
+                "date": "11/01/2017",
+                "rpg": "Old Dragon",
+                "type": "Maga - Neutra - Invocadora"
+            },
+            "references": [{
+                "title":"Música: Scarborough Fair - Celtic Woman",
+                "type":"1",
+                "source": "wiZJP_XLmrQ"
+            }],
+            "diary": {}
         },
         {
             "id": "4",
-            "name": "Masakasu Shoji"
+            "name": "Masakasu Shoji",
+            "player": {
+                "name": "Furflez (Felipe Amaral)",
+                "date": "11/01/2017",
+                "rpg": "Mago: A ascenção",
+                "type": "Tradição: Adepto da Virtualidade"
+            },
+            "references": [{
+            }],
+            "diary": {}
         },
         {
             "id":"5",
             "name": "Elizabeth Lemaire",
-            "image": "https://i.imgsafe.org/e05bf83e46.jpg"
+            "image": "https://i.imgsafe.org/e05bf83e46.jpg",
+             "player": {
+                "name": "Furflez (Felipe Amaral)",
+                "date": "11/01/2017",
+                "rpg": "Vampiro: A máscara",
+                "type": "Clã: Malkavian"
+            },
+            "references": [{
+            }],
+            "diary": {}
         }
     ]
 }
