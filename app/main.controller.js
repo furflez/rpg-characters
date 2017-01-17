@@ -33,15 +33,22 @@ var database = {
         },
         {
             "id": "2",
-            "name": "Dr. Gus Hodgins"
+            "name": "Dr. Gus Hodgins",
+            "image": "https://i.imgsafe.org/e06e8961c1.png"
         },
         {
             "id": "3",
-            "name": "Amalya Kilgore"
+            "name": "Amalya Kilgore",
+            "image": "https://i.imgsafe.org/e05e260360.jpg"
         },
         {
             "id": "4",
             "name": "Masakasu Shoji"
+        },
+        {
+            "id":"5",
+            "name": "Elizabeth Lemaire",
+            "image": "https://i.imgsafe.org/e05bf83e46.jpg"
         }
     ]
 }
